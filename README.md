@@ -1,4 +1,4 @@
-# ⛅ 날씨에 맞는 음악 추천 시스템
+# ⛅ 오늘의 날씨 음악 장르 추천 시스템
 > 음악 선택 기준은 개인마다 다르지만 일반적으로 기분 상태와 연관되어 있다고 볼 수 있습니다. 날씨가 사람의 기분 변화에 영향을 줄 수 있다는 점을 고려하여, 오늘의 날씨에 맞는 장르를 추천하는 시스템을 구현했습니다.
 <br /><br />
 
@@ -52,8 +52,8 @@
 - 각 국가의 상위 100개 음악 태그
 <br /><br />
 
-## 📓 워크 플로우
-<img src="./images/워크플로우.png" />
+## 📓 작업 순서
+<img src="./images/워크플로우.png" alt="작업순서이미지" />
 <br /><br />
 
 ## 📁 프로젝트 구조
@@ -157,30 +157,6 @@
             |       
             \---wind
                     Wind_WFDE5_CRU_201901_v2.1.nc ~ Wind_WFDE5_CRU_201912_v2.1.nc
-```
-<br /><br />
-
-## Install
-```shell
-conda install jupyter --yes
-conda install folium --yes
-conda install xgboost --yes
-conda install numpy --yes
-conda install seaborn --yes
-conda install matplotlib --yes
-conda install bokeh --yes
-conda install pandas --yes
-conda install geopandas --yes
-conda install shapely --yes
-conda install scikit-learn --yes
-conda install requests --yes
-conda install xarray --yes
-conda install h5py --yes
-conda install lightgbm --yes
-conda install tslearn --yes
-conda install gensim --yes
-conda install -c conda-forge tslearn --yes
-conda install netCDF4 --yes
 ```
 <br /><br />
 
